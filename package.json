@@ -15,7 +15,8 @@
     "tool"
   ],
   "files": [
-    "dist"
+    "dist",
+    "*.d.ts"
   ],
   "author": "feather",
   "license": "MIT",

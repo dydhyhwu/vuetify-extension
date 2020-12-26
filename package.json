@@ -1,6 +1,6 @@
 {
   "name": "vuetify-extension",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "main": "dist/vuetify-extension.common.js",
   "description": "扩展vuetify 库, 提供常用操作类及装饰器",
   "scripts": {

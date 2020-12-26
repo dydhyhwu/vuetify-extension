@@ -5,8 +5,11 @@ export function Loading(msg) {
         let func = descriptor.value;
         descriptor.value = async function() {
             let loadingId = Loader.Loading(msg);
-            await func.apply(this, arguments);
-            Loader.Close(loadingId);
+            try {
+                await func.apply(this, arguments);
+            } finally {
+                Loader.Close(loadingId);
+            }
         };
     };
 }

@@ -47,7 +47,9 @@ class AppComponent extends Vue{
   }
 
   @Loading('加载中')
-  loaderDecorator() {}
+  loaderDecorator() {
+    throw Error("123");
+  }
 
   notifier() {
     Notification.success('提示信息');

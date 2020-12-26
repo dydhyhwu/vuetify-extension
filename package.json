@@ -1,7 +1,8 @@
 {
   "name": "vuetify-extension",
-  "version": "0.2.0",
+  "version": "0.2.1",
   "main": "dist/vuetify-extension.common.js",
+  "types": "src/index.d.ts",
   "description": "扩展vuetify 库, 提供常用操作类及装饰器",
   "scripts": {
     "serve": "vue-cli-service serve",

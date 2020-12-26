@@ -28,7 +28,7 @@ declare module "vuetify-extension" {
 
     export function Loading(text: string);
 
-    export function Confirm(title: string, context: string, yesText: string, noText: string);
+    export function Confirm(title: string, context: string, yesText?: string, noText?: string);
 
     export function Notice(successMsg: string, errMsg?: string);
 }

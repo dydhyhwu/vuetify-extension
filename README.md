@@ -51,7 +51,7 @@ decorators:
 
 
 
-### <a #id="install"></a>install(vue, vuetify)
+### <a id="install"></a>install(vue, vuetify)
 
 初始化扩展库，将vue,vueitfy 注入进库中。保证库的行为与项目一致。
 
